@@ -1,0 +1,38 @@
+.article-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-page img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.article-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.article-page p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.article-page a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.article-page a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

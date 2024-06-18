@@ -1,0 +1,105 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.dark-mode .modal-content {
+  background: #333;
+  color: #f4f4f4;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: white; /* Change color to white for better visibility */
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.modal-title {
+  font-size: 1.8em;
+  margin: 20px 0 10px;
+}
+
+.modal-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.read-more-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.read-more-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dark-mode .read-more-button {
+  background-color: #bb86fc;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+}
+
+.dark-mode .read-more-button:hover {
+  background-color: #bb86fc;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    padding: 15px;
+  }
+
+  .modal-title {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .modal-description {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+
+  .read-more-button {
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,0 +1,16 @@
+.theme-toggle {
+  background: transparent;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.dark-mode .theme-toggle {
+  color: #f4f4f4;
+}
