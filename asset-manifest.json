@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Aditya-Singh-5014/react-news-app/static/css/main.85ea3dea.css",
+    "main.js": "/Aditya-Singh-5014/react-news-app/static/js/main.6b8ef7e4.js",
+    "static/media/image-not-found.png": "/Aditya-Singh-5014/react-news-app/static/media/image-not-found.295cf90aa4bc156e1ea4.png",
+    "index.html": "/Aditya-Singh-5014/react-news-app/index.html",
+    "main.85ea3dea.css.map": "/Aditya-Singh-5014/react-news-app/static/css/main.85ea3dea.css.map",
+    "main.6b8ef7e4.js.map": "/Aditya-Singh-5014/react-news-app/static/js/main.6b8ef7e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ea3dea.css",
+    "static/js/main.6b8ef7e4.js"
+  ]
+}
